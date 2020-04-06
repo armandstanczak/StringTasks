@@ -1,16 +1,18 @@
 package stringtasks;
 
-/**
- *
- * @author Armand Stańczak
- */
+import java.util.Scanner;
+
 public class Task001_Index {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a sentence: ");
+        String sentence = input.nextLine();
+        System.out.print("Input an index: ");
+        int index = input.nextInt();
+        
+        System.out.println("Original sentence: " + sentence);
+        System.out.println("Letter at index " + index + " is: " + sentence.charAt(index));
     }
-    
 }
