@@ -1,6 +1,6 @@
-# Set of excersices from w3resource
+# Set of exercises from w3resource
 
-This repository covers excersices from w3resource - "String"
+This repository covers exercises from w3resource - "String"
 They were all completed using NetBeans
 
 ## Installation
